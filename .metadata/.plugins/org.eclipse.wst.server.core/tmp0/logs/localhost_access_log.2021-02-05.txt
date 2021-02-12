@@ -1,0 +1,6 @@
+127.0.0.1 - - [05/Feb/2021:09:29:35 +0530] "GET / HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [05/Feb/2021:09:29:36 +0530] "GET /cybage-elearning/admin/jsp/category.jsp HTTP/1.1" 200 3504
+0:0:0:0:0:0:0:1 - - [05/Feb/2021:09:29:39 +0530] "GET /cybage-elearning/AdminController/updateCategory HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2021:13:04:40 +0530] "GET / HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [05/Feb/2021:13:04:51 +0530] "GET /cybage-elearning/admin/jsp/category.jsp HTTP/1.1" 200 3504
+0:0:0:0:0:0:0:1 - - [05/Feb/2021:13:04:55 +0530] "GET /cybage-elearning/AdminController/updateCategory HTTP/1.1" 200 -

@@ -1,0 +1,15 @@
+package com.cybage.model;
+
+public class Video extends Course{
+
+	private int videoid;
+	private String videoname;
+	private String videopath;
+	
+	public Video(String categoryname, String categorydescription, String logo, String coursename, int courseid,
+			String courselogo, String coursedescription) {
+		super(categoryname, categorydescription, logo, coursename, courseid, courselogo, coursedescription);
+	}
+	
+	
+}

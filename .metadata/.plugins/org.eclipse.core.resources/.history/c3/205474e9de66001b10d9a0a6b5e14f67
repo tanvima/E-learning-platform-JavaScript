@@ -1,0 +1,49 @@
+package com.cybage.model;
+
+public class Category {
+
+	private String categoryname;
+	private String categorydescription;
+	private String logo;
+	
+	
+	
+	
+	
+	
+	
+	public Category(String categoryname, String categorydescription, String logo) {
+		super();
+		this.categoryname = categoryname;
+		this.categorydescription = categorydescription;
+		this.logo = logo;
+	}
+	
+	public Category(String categoryname, String categorydescription) {
+		super();
+		this.categoryname = categoryname;
+		this.categorydescription = categorydescription;
+	}
+	
+	
+	public String getCategoryname() {
+		return categoryname;
+	}
+	public void setCategoryname(String categoryname) {
+		this.categoryname = categoryname;
+	}
+	public String getCategorydescription() {
+		return categorydescription;
+	}
+	public void setCategorydescription(String categorydescription) {
+		this.categorydescription = categorydescription;
+	}
+	public String getLogo() {
+		return logo;
+	}
+	public void setLogo(String logo) {
+		this.logo = logo;
+	}
+	
+	
+}

@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+C:\Users\tanvima\Desktop\java-mini\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3014152529.index
+414645451.index
+73623041.index
+601946116.index
+1626830475.index

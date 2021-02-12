@@ -1,0 +1,25 @@
+package com.cybage.model;
+
+public class Course extends Category {
+
+	
+	private String coursename;
+	private int courseid;
+	private String courselogo;
+	private String coursedescription;
+	
+	
+	public Course(String categoryname, String categorydescription) {
+		super(categoryname, categorydescription);
+	}
+
+
+	public Course(String categoryname, String categorydescription, String logo) {
+		super(categoryname, categorydescription, logo);
+	}
+	
+	
+	
+
+	
+}

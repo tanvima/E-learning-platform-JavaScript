@@ -1,0 +1,20 @@
+@charset "ISO-8859-1";
+.footer-container {
+  position: relative;
+  bottom: 0;
+  padding: 0px;
+}
+.footer {
+  background-color: #2c3e50;
+}
+
+.footer a {
+  border-radius: 100%;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.copyright {
+  background-color: #212c38;
+  font-size: 20px;
+}

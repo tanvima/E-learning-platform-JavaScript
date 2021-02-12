@@ -1,0 +1,67 @@
+package com.cybage.model;
+
+public class Course extends Category {
+
+	
+	private String coursename;
+	private int courseid;
+	private String courselogo;
+	private String coursedescription;
+	
+	
+	public Course(String categoryname, String categorydescription) {
+		super(categoryname, categorydescription);
+	}
+
+	public Course(String categoryname, String categorydescription, String logo) {
+		super(categoryname, categorydescription, logo);
+	}
+
+	public Course(String categoryname, String categorydescription, String logo, String coursename, int courseid,
+			String courselogo, String coursedescription) {
+		super(categoryname, categorydescription, logo);
+		this.coursename = coursename;
+		this.courseid = courseid;
+		this.courselogo = courselogo;
+		this.coursedescription = coursedescription;
+	}
+
+	public String getCoursename() {
+		return coursename;
+	}
+
+	public void setCoursename(String coursename) {
+		this.coursename = coursename;
+	}
+
+	public int getCourseid() {
+		return courseid;
+	}
+
+	public void setCourseid(int courseid) {
+		this.courseid = courseid;
+	}
+
+	public String getCourselogo() {
+		return courselogo;
+	}
+
+	public void setCourselogo(String courselogo) {
+		this.courselogo = courselogo;
+	}
+
+	public String getCoursedescription() {
+		return coursedescription;
+	}
+
+	public void setCoursedescription(String coursedescription) {
+		this.coursedescription = coursedescription;
+	}
+	
+	
+	
+	
+	
+
+	
+}

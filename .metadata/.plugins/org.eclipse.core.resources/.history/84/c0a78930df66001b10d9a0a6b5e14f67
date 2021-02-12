@@ -1,0 +1,13 @@
+package com.cybage.model;
+
+public class Course extends Category {
+
+	private String coursename;
+	private int courseid;
+	private String courselogo;
+	private String coursedescription;
+	
+	
+
+	
+}

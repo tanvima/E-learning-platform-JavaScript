@@ -1,0 +1,8 @@
+package com.cybage.model;
+
+public class Video extends Course{
+
+	private int videoid;
+	private String videoname;
+	private String videopath;
+}

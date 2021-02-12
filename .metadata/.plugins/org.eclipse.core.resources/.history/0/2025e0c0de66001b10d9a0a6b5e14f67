@@ -1,0 +1,8 @@
+package com.cybage.model;
+
+public class Category {
+
+	private String categoryname;
+	private String categorydescription;
+	private String logo;
+}
